@@ -1,20 +1,12 @@
 from django.http import HttpResponse
 import datetime
 from django.template import Template, Context
+from django.template.loader import get_template
+from django.shortcuts import render
 
 def saludo(request): ## primera Vista
 
-    doc_externo=open(r"C:\Users\pc\OneDrive - Universidad Santiago de Cali\5 - ProjectosDjango\Web1\Web1\plantillas\miplantilla.html")
-
-    plt=Template(doc_externo.read())
-
-    doc_externo.close()
-
-    ctx=Context()
-
-    documento=plt.render(ctx)
-
-    return HttpResponse(documento)
+    return render(request,"miplantilla.html")
     
     
 #########################################################
