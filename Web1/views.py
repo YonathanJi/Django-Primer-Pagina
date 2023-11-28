@@ -8,7 +8,9 @@ def plantillanicial(request): ## primera Vista
 
     return render(request,"plantilla_base.html")
 
+#########################
+
 def otraplantilla(request): ## primera Vista
 
-    return render(request,"1.html")
+    return render(request,"plantilla1.html")
     
