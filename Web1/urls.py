@@ -16,12 +16,11 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from Web1.views import plantillanicial,otraplantilla
+from Web1.views import amici
 
 
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('plantillabase/', plantillanicial),
-    path('otraplantilla/', otraplantilla)    
-] 
+    path('inicio/', amici)
+]
