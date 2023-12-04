@@ -27,7 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-STATICFILES_DIRS=[r'C:\Users\pc\OneDrive - Universidad Santiago de Cali\6 - GitHub\Django-Primer-Pagina\Web1\plantillas\static']
+STATICFILES_DIRS=[r'C:\Users\pc\OneDrive - Universidad Santiago de Cali\5 - GitHub\Django-Primer-Pagina\Web1\plantillas\static']
 
 
 # Application definition
@@ -57,7 +57,7 @@ ROOT_URLCONF = 'Web1.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [r'C:\Users\pc\OneDrive - Universidad Santiago de Cali\6 - GitHub\Django-Primer-Pagina\Web1\plantillas'],
+        'DIRS': [r'C:\Users\pc\OneDrive - Universidad Santiago de Cali\5 - GitHub\Django-Primer-Pagina\Web1\plantillas'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
