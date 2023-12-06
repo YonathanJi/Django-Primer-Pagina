@@ -4,9 +4,12 @@ from django.db import models
 
 class Clientes(models.Model):
     nombre=models.CharField(max_length=30)
-    direccion=models.CharField(max_length=50)
-    email=models.EmailField()
+    direccion=models.CharField(max_length=50, verbose_name="La Direccion")
+    email=models.EmailField(blank=True, null=True)
     tlfn=models.CharField(max_length=7)
+
+    def __str__(self):
+        return  self.nombre
 
 
 class Articulos(models.Model):
@@ -21,4 +24,7 @@ class Articulos(models.Model):
 class Pedidos(models.Model):
     numero=models.IntegerField()
     fecha=models.DateField()
-    entregado=models.BooleanField()   
+    entregado=models.BooleanField()
+
+    def __str__(self):
+        return  self.numero
