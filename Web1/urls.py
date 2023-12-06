@@ -16,11 +16,13 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from Web1.views import amici
+from Web1.views import inicio
+from gestionPedidos import views ## Otra manera de importar
 
 
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('inicio/', amici)
+    path('inicio/', inicio), 
+    path('formulario/', views.busqueda_productos), ## Otra manera de importar 
 ]
