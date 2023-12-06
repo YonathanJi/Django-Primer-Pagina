@@ -23,6 +23,7 @@ from gestionPedidos import views ## Otra manera de importar
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('inicio/', inicio), 
+    path('home/', inicio),
     path('formulario/', views.busqueda_productos), ## Otra manera de importar 
+    path('buscar/', views.buscar),
 ]
