@@ -1,0 +1,74 @@
+ .u-section-1 {
+  background-image: linear-gradient(to right, #f37335, #f0c830);
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 497px;
+}
+
+.u-section-1 .u-text-1 {
+  font-size: 3.75rem;
+  font-weight: 700;
+  width: 204px;
+  margin: 16px auto 0;
+}
+
+.u-section-1 .u-text-2 {
+  font-weight: 700;
+  font-size: 3.75rem;
+  margin: -26px auto 0;
+}
+
+.u-section-1 .u-form-1 {
+  height: 329px;
+  width: 570px;
+  margin: 0 auto;
+}
+
+.u-section-1 .u-btn-1 {
+  background-image: none;
+  --radius: 50px;
+  font-weight: 700;
+  font-size: 1.125rem;
+}
+
+.u-section-1 .u-social-icons-1 {
+  height: 42px;
+  min-height: 16px;
+  width: 147px;
+  min-width: 68px;
+  margin: -68px 353px 42px auto;
+}
+
+.u-section-1 .u-icon-1 {
+  color: rgb(59, 89, 152) !important;
+  height: 100%;
+}
+
+.u-section-1 .u-icon-2 {
+  color: rgb(85, 172, 238) !important;
+  height: 100%;
+}
+
+.u-section-1 .u-icon-3 {
+  color: rgb(197, 54, 164) !important;
+  height: 100%;
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-form-1 {
+    width: 540px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-text-2 {
+    font-size: 3rem;
+  }
+
+  .u-section-1 .u-form-1 {
+    width: 340px;
+  }
+}
