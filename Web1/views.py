@@ -10,3 +10,7 @@ def inicio(request): ## primera Vista
 def contacto_view(request): 
 
     return render(request,"Contactanos.html")
+
+def simulador_view(request): 
+
+    return render(request,"Simulador.html")
