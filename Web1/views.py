@@ -16,6 +16,3 @@ def simulador_view(request):
 
     return render(request,"Simulador.html")
 
-def simulador1_view(request): 
-
-    return render(request,"page.html")
