@@ -15,4 +15,3 @@ def contacto_view(request):
 def simulador_view(request): 
 
     return render(request,"Simulador.html")
-
