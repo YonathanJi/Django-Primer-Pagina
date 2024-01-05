@@ -16,7 +16,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from Web1.views import inicio, contacto_view, simulador_view
+from Web1.views import inicio, contacto_view, simulador_view, simulador1_view
 from gestionPedidos import views ## Otra manera de importar
 
 
@@ -28,4 +28,5 @@ urlpatterns = [
     path('buscar/', views.buscar),
     path('contactanos/', contacto_view, name='contactanos'),
     path('simulador/', simulador_view, name='simulador'),
+    path('simulador1/', simulador1_view, name='simulador1'),
 ]
